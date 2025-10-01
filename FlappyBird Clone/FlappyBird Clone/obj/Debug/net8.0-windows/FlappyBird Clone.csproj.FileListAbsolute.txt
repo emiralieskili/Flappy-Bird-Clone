@@ -1,0 +1,17 @@
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\bin\Debug\net8.0-windows\FlappyBird Clone.exe
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\bin\Debug\net8.0-windows\FlappyBird Clone.deps.json
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\bin\Debug\net8.0-windows\FlappyBird Clone.runtimeconfig.json
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\bin\Debug\net8.0-windows\FlappyBird Clone.dll
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\bin\Debug\net8.0-windows\FlappyBird Clone.pdb
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\FlappyBird_Clone.Form1.resources
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\FlappyBird_Clone.Properties.Resources.resources
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\FlappyBird Clone.csproj.GenerateResource.cache
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\FlappyBird Clone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\FlappyBird Clone.AssemblyInfoInputs.cache
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\FlappyBird Clone.AssemblyInfo.cs
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\FlappyBird Clone.csproj.CoreCompileInputs.cache
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\FlappyBird Clone.dll
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\refint\FlappyBird Clone.dll
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\FlappyBird Clone.pdb
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\FlappyBird Clone.genruntimeconfig.cache
+C:\Users\emira\Projects\VisualStudio\FlappyBird Clone\FlappyBird Clone\obj\Debug\net8.0-windows\ref\FlappyBird Clone.dll
