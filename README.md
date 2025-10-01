@@ -50,6 +50,7 @@ Gereksinimler
 1. Projeyi klonlayın veya indirin
 2. Visual Studio'da açın
 3. Projeyi derleyin ve çalıştırın
+Not: FlappyBird Clone dosyasının içindeki FlappyBird Clone.exe kısayolu ile de başlatabilirsiniz.
 
 Oyun Kontrolleri
 | Tuş | Aksiyon |
@@ -57,10 +58,9 @@ Oyun Kontrolleri
 | Space | Kuşu zıplat ve oyun bitti ise yeniden başlat |
 
 ## Oyun Kuralları
-- Borulara veya zemine çarpmadan mümkün olduğunca ilerleyin
-- Her boru setinden geçişte 1 puan kazanılır
-- Boru hızı her 5 puanda 1 artar
-- Zorluk arttıkça dikkatli olun
+- Borulara veya zemine çarpmadan mümkün olduğunca ilerleyin.
+- Her boru setinden geçişte 1 puan kazanılır.
+- Boru hızı her 5 puanda 1 artar.
 
 ## Geliştirici Notları
 
@@ -70,14 +70,20 @@ Kod Yapısı
 - Çarpışma Tespiti: Bounds.IntersectsWith metodu
 
 Genişletilebilirlik
-- Yeni boru setleri eklenebilir
-- Farklı zorluk artış sistemleri tanımlanabilir
-- Görsel iyileştirmeler yapılabilir
+- Yeni boru setleri eklenebilir.
+- Farklı zorluk artış sistemleri tanımlanabilir.
+- Görsel iyileştirmeler yapılabilir.
 
 Sınıf Yapısı
 - Ana Form (Form1.cs)
-  - Özellikler: Oyun değişkenleri (hız, yerçekimi, skor)
-  - Metodlar: Oyun mantığı, çarpışma tespiti, arayüz yönetimi
+  - Değişkenler: gap(iki boru arası boşluk), pipeSpeed(boruların hareket hızı), gravity(yerçekimi), score(skor), isGameOver(oyun durumu)
+  - Metotlar:
+    gameTimerEvent(object sender, EventArgs e): Oyun döngüsü; kuşun yerçekimiyle hareketi, boruların sola kayması, skor güncelleme ve çarpışma kontrolünü yapar.
+     placePipes(): Boruları ekrana yerleştirir; üst borunun yüksekliği rastgele seçilir ve alt boru boşluklu şekilde konumlanır.
+     gameKeyIsDown(object sender, KeyEventArgs e): Space tuşuna basıldığında kuşun zıplamasını sağlar (gravity negatif yapılır).
+     gameKeyIsUp(object sender, KeyEventArgs e): Space tuşu bırakıldığında kuşun tekrar aşağı düşmesini sağlar (gravity pozitif yapılır).
+     endGame(): Oyun bittiğinde timer’ı durdurur ve ekranda "Game Over" mesajı gösterir.
+     restartGame(): Oyun yeniden başlatıldığında kuş ve boruları başlangıç konumuna getirir, skor sıfırlanır, gravity varsayılan değerine döner ve timer tekrar başlar.
   - Olaylar: Klavye işleyicileri, zamanlayıcı tik olayları
 
 Oyun Bileşenleri
